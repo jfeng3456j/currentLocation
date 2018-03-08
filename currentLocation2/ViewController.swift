@@ -81,7 +81,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         print("Error \(error)")
     }
     
-    
+    // php post to the amazon cloud server
     @IBAction func sendPost(_ sender: Any) {
         // prepare json data
         let json: [String: Any] = ["coordinateA": "123",
